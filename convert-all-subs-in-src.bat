@@ -1,5 +1,5 @@
 @echo off
-rem *** covert all *.srt files in this folder from encoding CP1250 to UTF-8 with BOM
+rem *** covert all *.srt files in './src' folder from encoding CP1250 to UTF-8 with BOM
 
 mkdir utf8
 FOR %%i IN (src\*.srt) DO (
